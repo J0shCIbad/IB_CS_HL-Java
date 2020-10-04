@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.2_03" class="java.beans.XMLDecoder"> 
+ <object class="java.util.ArrayList"> 
+  <void method="add"> 
+   <object class="jamtester.studenttool.Tab"> 
+    <void property="name"> 
+     <string>MysterySolverTest</string> 
+    </void> 
+    <void property="startFile"> 
+     <string>Z:\Java Labs\Mystery\MysterySolver.java</string> 
+    </void> 
+    <void property="testFile"> 
+     <string>Z:\Java Labs\Mystery\MysterySolverTest.java</string> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+</java> 

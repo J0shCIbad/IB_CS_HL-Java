@@ -1,0 +1,76 @@
+/**
+ *
+ *     all vertices are numbered with Strings of length 1
+ *     
+ *     Edges are of the form (a, b), a.length() == 1 and b.length() == 1
+ *
+ * 
+ *     @author  -   Josh Ibad
+ *     @date    -   04/23/2019
+ *     @teacher -   Mr. Allen
+ *     @period  -   1
+ */
+public class Edge
+{
+    private String a;
+    private String b;
+
+    /**
+     * Constructor for objects of class Pixel
+     */
+    public Edge(String x, String y)
+    {
+        a = x;
+        b = y;
+    }
+
+    public String getA() { return a;  }
+
+    public String getB() { return b;  }
+    public String a() { return a;  }
+
+    public String b() { return b;  }
+
+    public void setA(String s) {a=s;}
+
+    public void setB(String s) {b=s;}
+
+    /** 3/3
+     *   two edges are equal iff they have the same beginning vertex and same ending vertex
+     *   
+     *   Edge (v, w) is not equals to Edge (w, v)
+     */
+    public boolean equals(Object obj)
+    {
+        Edge temp = (Edge) obj;
+        return a == temp.getA() && b == temp.getB();
+    }
+
+    public int hashCode()
+    {
+        return getA().hashCode() + getB().hashCode();
+    }
+    
+    public boolean adjHelper(String s, String t)
+    {
+        return (s==a && t==b) || (s==b && t==a);
+    }
+    
+    public String neighborHelper(String s)
+    {
+        if(a==s)
+            return b;
+        else{if(b==s)
+                return a;
+        else
+            return "!@#";
+        
+        }
+    }
+    
+    public boolean containsVertex(String s)
+    {
+        return s==a || s==b;
+    }
+    
+}
