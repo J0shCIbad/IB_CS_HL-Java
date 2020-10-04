@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=s1\ s2
+comment0.target=int\ kbDistance(java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Based\ off\ Ibad's\ personal\ observations\r\n
+comment1.params=word
+comment1.target=double\ averageDistance(java.lang.String)
+comment1.text=\r\n\ Sums\ key\ to\ key\ distances\ and\ divides\ by\ number\ of\ letters\ -1;\r\n
+comment2.params=word
+comment2.target=int\ numDirectionChanges(java.lang.String)
+comment2.text=\r\n\ Uses\ helper\ method\ to\ check\ every\ middle\ letter\ if\ it\ is\ furthest\ left\ or\ right\ than\ its\ neighbors\r\n
+comment3.params=triplet
+comment3.target=boolean\ dirChange(java.lang.String)
+comment4.params=word
+comment4.target=java.lang.String\ wordDifficulty(java.lang.String)
+comment4.text=\r\n\ Uses\ above\ methods\ and\ chart\ on\ prompt\r\n
+numComments=5

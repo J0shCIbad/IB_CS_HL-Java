@@ -1,0 +1,35 @@
+#BlueJ class context
+comment0.params=tree
+comment0.target=ForestPlayGround(java.lang.String[])
+comment0.text=\r\n\ \ \ PreConditions\r\n\ \ \ \ \ \ \ \ tree\ is\ a\ valid\ represntation\ fo\ a\ binary\ tree\r\n\ \ \ \ \ \ \ \ tree\ \!\=\ null\r\n\ \ \ \ \ \ \ \ tree.size()\ >\=\ 0\r\n
+comment1.params=
+comment1.target=int\ getNumNodes()
+comment1.text=\r\n\ \ \ \ return\ the\ number\ of\ non\ null\ nodes\ in\ myTree\r\n
+comment10.params=child1\ child2
+comment10.target=java.lang.String\ getLowestCommonAncestor(java.lang.String,\ java.lang.String)
+comment10.text=\r\n\ \ \ \ returns\ the\ least\ common\ ancestor\ of\ child1\ and\ child2\r\n\ \ \ \ \r\n\ \ \ \ you\ may\ assume\ child1\ and\ child2\ are\ valid\ nodes\ in\ the\ tree\r\n
+comment2.params=
+comment2.target=int\ getNumLeafs()
+comment2.text=\r\n\ \ \ \ A\ leaf\ is\ a\ node\ in\ the\ tree\ in\ which\ both\ children\ have\ 0\ children.\r\n\ \ \ \ An\ empty\ tree\ contains\ NO\ leafs\r\n
+comment3.params=p
+comment3.target=java.lang.String\ getRightChild(int)
+comment3.text=\r\n\ \ \ \ Precondition\:\ \ \ 0\ <\=\ p\ <\ myTree.length\r\n\r\n\ \ \ \ returns\:\r\n\ \ \ \ \ \ \ \ the\ right\ child\ of\ myTree[p]\r\n\ \ \ \ \ \ \ \ null\ if\ myTree[p]\ does\ not\ have\ a\ right\ child\r\n
+comment4.params=p
+comment4.target=java.lang.String\ getLeftChild(int)
+comment4.text=\r\n\ \ \ \ Precondition\:\ \ \ 0\ <\=\ p\ <\ myTree.length\r\n\r\n\ \ \ \ returns\:\r\n\ \ \ \ \ \ \ \ the\ left\ child\ of\ myTree[p]\r\n\ \ \ \ \ \ \ \ null\ if\ myTree[p]\ does\ not\ have\ a\ left\ child\r\n
+comment5.params=p
+comment5.target=java.lang.String\ getParent(int)
+comment5.text=\r\n\ \ \ \ Precondition\:\ \ \ 0\ <\=\ p\ <\ myTree.length\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ myTree[p]\ \!\=\ null\r\n\r\n\ \ \ \ returns\:\r\n\ \ \ \ \ \ \ \ the\ parent\ of\ myTree[p]\r\n\ \ \ \ \ \ \ \ null\ if\ myTree[p]\ does\ not\ have\ a\ parent\r\n
+comment6.params=p
+comment6.target=java.util.List\ getAncestors(int)
+comment6.text=\r\n\ \ \ \ Precondition\:\ \ \ 0\ <\=\ p\ <\ myTree.length\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ myTree[p]\ \!\=\ null\r\n\r\n\ \ \ \ returns\:\r\n\ \ \ \ \ \ \ \ the\ List\ of\ all\ ancestors\ (parent\ and\ their\ parent\ ans\ so\ on)\ of\ myTree[p]\r\n\ \ \ \ \ \ \ \ an\ empty\ List\ if\ myTree[p]\ does\ not\ have\ a\ parent\r\n
+comment7.params=p
+comment7.target=java.util.List\ getDescendants(int)
+comment7.text=\r\n\ Preconditions\:\r\n\ \ \ \ myTree[p]\ \!\=\ null\r\n\ \ \ \ 0\ <\=\ p\ <\ myTree.length\r\n
+comment8.params=
+comment8.target=boolean\ isComplete()
+comment8.text=\r\n\ \ \ \ In\ a\ complete\ binary\ tree\ every\ level,\ except\ possibly\ the\ last,\ is\ completely\ filled,\r\n\ \ \ \ and\ all\ nodes\ in\ the\ last\ level\ are\ as\ far\ left\ as\ possible.\r\n\ \ \ \ \r\n\ \ \ \ This\ implies\ that\ the\ end\ of\ the\ array\ may\ contain\ multiple\ nulls\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ the\ array/tree\ may\ still\ be\ complete\r\n
+comment9.params=
+comment9.target=boolean\ isFull()
+comment9.text=\r\n\ \ \ \ A\ full\ binary\ tree\ is\ a\ tree\ in\ which\ every\ node\ in\ the\ tree\ has\ either\ 0\ or\ 2\ children.\r\n
+numComments=11
